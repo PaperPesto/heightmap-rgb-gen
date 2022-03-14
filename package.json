@@ -1,12 +1,12 @@
 {
-  "name": "heightmap",
+  "name": "heightmap-rgb-gen",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Map generator from heightmap (comma separated numbers file). It process a heightmap as input and generates a png with a graduated color scale (customizable through the arguments)",
+  "main": "color-gradient.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Leonardo Bianchini",
   "license": "ISC",
   "dependencies": {
     "fs": "^0.0.1-security",
