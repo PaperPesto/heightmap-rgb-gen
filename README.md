@@ -12,24 +12,23 @@ npm install heightmap-rgb-gen
 
 ## Usage
 
-save a file called *heightmap* with csv numbers inside
+Save a file called *heightmap* with csv numbers inside and run
 
 ```bash
 npx heightmap-rgb-gen
 ```
 
+## Example
 This file (*heightmap*)
 ```node
 0,4,2,6,3,0,1,6,8
 ```
-becomes this png
-![alt text](https://github.com/PaperPesto/heightmap-rgb-gen/blob/main/heightmap.png?raw=true)
+generates this png  
+  
+![alt text](https://github.com/PaperPesto/heightmap-rgb-gen/blob/main/heightmap.preview.png)
 
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Example 2
+```bash
+npx heightmap-rgb-gen heightmap.txt 10 10 'faf450' '0254ff' 10
+```
+Requires a 100 comma separated numbers inside *heightmap.txt* file. It generates a png image *heightmap.png* of 10x10 pixels with 10 colors from #faf450 to #0254ff.
