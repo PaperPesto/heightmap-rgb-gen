@@ -15,10 +15,9 @@
     "pngjs": "^6.0.0"
   },
   "keywords": [
-    "promise",
-    "async",
-    "UnhandledPromiseRejectionWarning",
-    "PromiseRejectionHandledWarning"
+    "heightmap",
+    "png",
+    "heatmap"
   ],
   "repository": {
     "type": "git",
