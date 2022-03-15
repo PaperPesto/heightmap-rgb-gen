@@ -23,7 +23,7 @@ This file (*heightmap*)
 ```node
 0,4,2,6,3,0,1,6,8
 ```
-generates this png  
+generates this 3x3 pixel png  
   
 ![alt text](https://github.com/PaperPesto/heightmap-rgb-gen/blob/main/heightmap.preview.png)
 
