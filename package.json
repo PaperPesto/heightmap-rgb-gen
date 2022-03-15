@@ -1,6 +1,6 @@
 {
   "name": "heightmap-rgb-gen",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Map generator from heightmap (comma separated numbers file). It process a heightmap as input and generates a png with a graduated color scale (customizable through the arguments)",
   "main": "main.js",
   "bin": "main.js",
