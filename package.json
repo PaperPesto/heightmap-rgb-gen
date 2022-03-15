@@ -13,5 +13,15 @@
     "fs": "^0.0.1-security",
     "javascript-color-gradient": "^2.3.4",
     "pngjs": "^6.0.0"
+  },
+  "keywords": [
+    "promise",
+    "async",
+    "UnhandledPromiseRejectionWarning",
+    "PromiseRejectionHandledWarning"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaperPesto/heightmap-rgb-gen.git"
   }
 }
