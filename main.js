@@ -5,9 +5,11 @@ const fs = require('fs'),
     PNG = require('pngjs').PNG;
 const colorGradient = require("javascript-color-gradient");
 
-console.log('arguments: inputFile width height fromColor toColor midPoints outputFile verbose');
+console.log('order arguments: inputFile width height fromColor toColor midPoints outputFile verbose');
 const args = process.argv.slice(2);
-console.log('arguments passed', args);
+console.log('arguments passed:', args);
+
+const procPath = process.cwd();
 
 const inputFile = args[0] ? args[0] : 'heightmap';
 let width = args[1];
@@ -22,8 +24,9 @@ const verbose = args[7] ? args[7] : false;
 const alphaChannelDefault = 'FF';
 
 // files
-const inputPath = path.join(__dirname, inputFile);
-const outputPath = path.join(__dirname, outputFile);
+const inputPath = path.join(procPath, inputFile);
+const outputPath = path.join(procPath, outputFile);
+if(!fs.existsSync(inputPath)) throw new Error(`input file ${inputPath} not found`);
 
 // read heightmap
 var buffer = fs.readFileSync(inputPath);
