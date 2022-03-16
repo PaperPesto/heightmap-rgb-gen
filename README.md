@@ -2,9 +2,12 @@
 
 Cli tool for generating heightmap from comma separated numbers
 
+> [github](https://www.npmjs.com/package/heightmap-rgb-gen)  
+> [npm](https://www.npmjs.com/package/heightmap-rgb-gen)
+
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/) to install heightap-rgb-gen.
+Use the package manager [npm](https://www.npmjs.com/) to install heightmap-rgb-gen.
 
 ```bash
 npm install heightmap-rgb-gen
