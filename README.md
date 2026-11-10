@@ -83,4 +83,4 @@ creates `heightmap.txt.png`, 10×10 pixels, using 10 colors from `#faf450` to `#
 
 ## License
 
-ISC
+[ISC](LICENSE)
